@@ -23,8 +23,12 @@ summary(cars)
 
 You can also embed plots, for example:
 
+Using ggplot which is much better:
+
 ```{r pressure, echo=FALSE}
-plot(pressure)
+library(ggplot2)
+ggplot(cars, aes(speed, dist)) +
+  geom_point()
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
