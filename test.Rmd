@@ -1,5 +1,5 @@
 ---
-title: "mynewproject"
+title: "My new Proyet"
 author: "Elena Velado-Alonso"
 date: "15 de junio de 2017"
 output: html_document
